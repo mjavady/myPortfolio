@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+  .nav-mobile {
+    height: 80px;
+  }
+}
+.tag {
+  font-size: 1.6rem;
+  display: inline-block;
+  font-family: "Satisfy", cursive !important;
+}
