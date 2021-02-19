@@ -12,7 +12,7 @@ function ContactMe(props) {
   return (
     <div className="row container">
       <h1>Looking for me?</h1>
-      <div style={{ height: "100%" }}>
+      <div style={{ height: props.viewPort }}>
         <div className="col l1"></div>
         <ScrollAnimation
           initiallyVisible={true}

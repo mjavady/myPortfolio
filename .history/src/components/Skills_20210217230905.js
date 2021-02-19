@@ -60,7 +60,6 @@ function Skills() {
           animateIn="bounceInUp"
           afterAnimatedIn={animIn}
         >
-          <h3 className="center">Programming Languages</h3>
           <Carousel
             className="black-text center"
             options={{
@@ -248,7 +247,6 @@ function Skills() {
           animateIn="bounceInUp"
           afterAnimatedIn={animIn}
         >
-          <h3 className="center">Designing</h3>
           <Carousel
             className="black-text center"
             options={{
@@ -443,9 +441,9 @@ export default Skills;
 //       )}
 //     </Spring>
 
-// {
-//   /* <Parallax */
-// }
+{
+  /* <Parallax */
+}
 //   // bgImage="/images/skills5.jpg"
 //   // blur={{ min: -15, max: 15 }}
 //   strength={500}

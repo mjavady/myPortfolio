@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Spring
-        from={{ top: 800, display: "none" }}
+        from={{ top: 1000, display: "none" }}
         to={{ top: -1000, display: "inline-block" }}
         config={config.slow}
         delay={2100}
@@ -19,7 +19,7 @@ function App() {
       <Spring from={{ top: 0 }} to={{ top: -1000 }} delay={2300}>
         {(props) => (
           <div style={{ ...props }} className="darkness">
-            <Fade top cascade collapse>
+            <Fade cascade collapse>
               <div className="text-head">
                 <h1>MJY.</h1>
                 <h1>Make</h1>

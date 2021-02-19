@@ -248,7 +248,6 @@ function Skills() {
           animateIn="bounceInUp"
           afterAnimatedIn={animIn}
         >
-          <h3 className="center">Designing</h3>
           <Carousel
             className="black-text center"
             options={{

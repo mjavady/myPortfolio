@@ -46,7 +46,7 @@ function TheNavbar(props) {
                       : "brand-logo white-text nav-mobile center"
                   }
                   href="#!"
-                  style={{ ...animProps, width: "100%" }}
+                  style={animProps}
                 >
                   MJY<p className="tag">.make it easier</p>
                 </a>

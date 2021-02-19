@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Spring
-        from={{ top: 800, display: "none" }}
+        from={{ top: 1000, display: "none" }}
         to={{ top: -1000, display: "inline-block" }}
         config={config.slow}
         delay={2100}

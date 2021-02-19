@@ -40,13 +40,15 @@ h3 {
 }
 .text-head {
   color: white;
-  position: absolute;
+  position: relative;
   z-index: 1001;
-  left: 50%;
-  top: 50%;
+  /* right: 50%;
+  top: 50%; */
+  /* left: 50%; */
   display: block;
-  height: 150px;
-  width: 90px;
-  margin-top: -45px;
-  margin-left: -45px;
+  margin: 0 50%;
+  margin-top: 0%;
+}
+.text-head:first-child {
+  margin-top: 20%;
 }

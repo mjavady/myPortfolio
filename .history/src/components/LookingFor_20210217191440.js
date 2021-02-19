@@ -18,7 +18,7 @@ function LookingFor(props) {
   return (
     <div>
       <Parallax>
-        <div style={{ height: "100%" }} className="container row">
+        <div style={{ height: props.viewPort }} className="container row">
           <h1 className="header">What am I looking for?</h1>
           <div style={{ zIndex: 1 }} className="col s12 m12 l6">
             <ScrollAnimation
