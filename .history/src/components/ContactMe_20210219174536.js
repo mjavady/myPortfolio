@@ -64,7 +64,7 @@ function ContactMe(props) {
                     {"  "}
                     <span>+989129678332</span>
                   </div>
-                  <div className="col s12 m5 l4 contact-info">
+                  <div className="col s12 m5 l4">
                     <FontAwesomeIcon
                       className="grey-text contact-info-span"
                       icon={faEnvelope}
@@ -72,7 +72,7 @@ function ContactMe(props) {
                     {"  "}
                     <span>mjyousefi976@yahoo.com</span>
                   </div>
-                  <div className="col s12 m5 l4 contact-info">
+                  <div className="col s12 m5 l4">
                     <FontAwesomeIcon
                       className="grey-text contact-info-span"
                       icon={faPaperPlane}

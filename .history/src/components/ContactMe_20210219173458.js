@@ -56,30 +56,24 @@ function ContactMe(props) {
                   />
                 </div>
                 <div className="col s12 m12 l12">
-                  <div className="col s12 m5 l4 contact-info">
-                    <FontAwesomeIcon
-                      className="grey-text contact-info-span"
-                      icon={faMobile}
-                    />
-                    {"  "}
-                    <span>+989129678332</span>
-                  </div>
-                  <div className="col s12 m5 l4 contact-info">
-                    <FontAwesomeIcon
-                      className="grey-text contact-info-span"
-                      icon={faEnvelope}
-                    />
-                    {"  "}
-                    <span>mjyousefi976@yahoo.com</span>
-                  </div>
-                  <div className="col s12 m5 l4 contact-info">
-                    <FontAwesomeIcon
-                      className="grey-text contact-info-span"
-                      icon={faPaperPlane}
-                    />
-                    {"  "}
-                    <span>@Mjavady976</span>
-                  </div>
+                  <FontAwesomeIcon
+                    className="grey-text contact-info col s12 m4 l4"
+                    icon={faMobile}
+                  />
+                  {"  "}
+                  <span className="col s12 m4 l4">+989129678332</span>
+                  <FontAwesomeIcon
+                    className="grey-text contact-info col s12 m4 l4"
+                    icon={faEnvelope}
+                  />
+                  {"  "}
+                  <span className="col s12 m4 l4">mjyousefi976@yahoo.com</span>
+                  <FontAwesomeIcon
+                    className="grey-text contact-info col s12 m4 l4"
+                    icon={faPaperPlane}
+                  />
+                  {"  "}
+                  <span className="col s12 m4 l4">@Mjavady976</span>
                 </div>
               </div>
               <div className="col s12 m12 l12"></div>
